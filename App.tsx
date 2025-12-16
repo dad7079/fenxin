@@ -1,9 +1,9 @@
 import React, { useState, useCallback, useMemo } from 'react';
 import { FractalState, Palette } from './types';
 import { DEFAULT_FRACTAL_STATE, PALETTES } from './constants';
-import { FractalCanvas } from './components/FractalCanvas';
-import { ControlPanel } from './components/ControlPanel';
-import { renderFractal } from './services/fractalRenderer';
+import { FractalCanvas } from './FractalCanvas';
+import { ControlPanel } from './ControlPanel';
+import { renderFractal } from './fractalRenderer';
 
 export default function App() {
   const [fractalState, setFractalState] = useState<FractalState>(DEFAULT_FRACTAL_STATE);
