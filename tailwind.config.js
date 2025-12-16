@@ -2,7 +2,12 @@
 export default {
   content: [
     "./index.html",
-    "./*.{js,ts,jsx,tsx}"
+    "./App.tsx",
+    "./ControlPanel.tsx",
+    "./FractalCanvas.tsx",
+    "./fractalRenderer.ts",
+    "./constants.ts",
+    "./types.ts"
   ],
   theme: {
     extend: {},
