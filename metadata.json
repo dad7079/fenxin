@@ -1,0 +1,5 @@
+{
+  "name": "阿呆分形",
+  "description": "专为移动设备设计的专业级离线分形浏览器。支持实时渲染、触摸手势和高清导出。",
+  "requestFramePermissions": []
+}
